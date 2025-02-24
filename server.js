@@ -21,6 +21,6 @@ app.delete("user",(req,res)=>{
     res.json({message:"User Deleted!"});
 });
 
-// app.listen(port(),{
-//     console.log(`API is running!:) http://localhost${port}`)
-// });
+app.listen(port(),{
+    console.log(`API is running!:) http://localhost${port}`)
+});
